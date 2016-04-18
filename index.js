@@ -12,7 +12,7 @@ if (!databaseUri) {
 }
 
 var api = new ParseServer({
-  databaseURI: databaseUri || 'mongodb://localhost:27017/dev',
+  databaseURI: databaseUri || ' mongodb://user:HidhuOp02@ds013290.mlab.com:13290/heroku_f0vz171k',
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
   appId: process.env.APP_ID || 'hgucqgaFTkbXBVnE2DG0T67n5OF9FbxlSxqKrPDE',
   masterKey: process.env.MASTER_KEY || 'P97yAnJpYkleoA0BXbMHpJ9nL0KkzBaxcRSyiMRk', //Add your master key here. Keep it secret!
